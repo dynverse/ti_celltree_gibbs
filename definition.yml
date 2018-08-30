@@ -1,6 +1,6 @@
 id: celltree_gibbs
-docker_repository: dynverse/dynmethods:celltree_gibbs
-container_url: https://github.com/dynverse/dynmethods/tree/master/containers/celltree_gibbs
+docker_repository: dynverse/ti_celltree_gibbs
+container_url: https://github.com/dynverse/ti_celltree_gibbs
 name: cellTree with gibbs
 type: algorithm
 platform: R
