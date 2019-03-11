@@ -68,7 +68,6 @@ mst_tree <- cellTree::compute.backbone.tree(
   lda.results = lda_out,
   grouping = grouping,
   start.group.label = start.group.label,
-  absolute.width = params$absolute_width,
   width.scale.factor = params$width_scale_factor,
   outlier.tolerance.factor = params$outlier_tolerance_factor,
   rooting.method = params$rooting_method,

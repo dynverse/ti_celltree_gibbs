@@ -57,14 +57,6 @@ parameters:
       type: expuniform
       lower: 0.01
       upper: 5.0
-  - id: absolute_width
-    description: 'Distance threshold below which a cell vertex is considered to be attached to a backbone vertex (see paper for more details). By default, this threshold is computed dynamically, based on the distance distribution for each branch.'
-    type: numeric
-    default: 0
-    distribution:
-      type: uniform
-      lower: 0
-      upper: 1
   - id: width_scale_factor
     description: 'A scaling factor for the dynamically-computed distance threshold (ignored if absolute_width is provided). Higher values will result in less branches in the backbone tree, while lower values might lead to a large number of backbone branches.'
     type: numeric
