@@ -14,7 +14,7 @@ data <- dyntoy::generate_dataset(
 data$parameters <- list(
   tot_iter = 10
 )
-data$seed <- 1
+data$seed <- 1L
 
 # write example dataset to file
 file <- commandArgs(trailingOnly = TRUE)[[1]]
